@@ -92,10 +92,10 @@ const BookingForm: React.FC = () => {
     <section id="booking" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold text-accent-800 mb-4">Book Your Appointment</h2>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold text-accent-800 mb-4">Agenda</h2>
           <div className="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
           <p className="text-accent-600">
-            Schedule your manicure session with our expert technicians at a time that suits you.
+            Agenda con nuestra experta en manicure
           </p>
         </div>
 
