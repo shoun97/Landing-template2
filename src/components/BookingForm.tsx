@@ -171,7 +171,7 @@ const BookingForm: React.FC = () => {
                     <h3 className="font-serif text-xl font-semibold text-accent-800 mb-4">Selecciona una pepe fecha</h3>
                     <div className="mb-6">
                       <label className="block text-accent-700 text-sm font-medium mb-2">
-                        Date
+                        Fecha
                       </label>
                       <DatePicker
                         selected={booking.date}
@@ -183,7 +183,7 @@ const BookingForm: React.FC = () => {
                           return day !== 0; // Filter out Sundays (0)
                         }}
                         className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-                        placeholderText="Select a date"
+                        placeholderText="Reserva tu hora pepe"
                         dateFormat="MMMM d, yyyy"
                       />
                     </div>
