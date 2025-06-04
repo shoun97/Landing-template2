@@ -191,7 +191,7 @@ const BookingForm: React.FC = () => {
                     {selectedDate && (
                       <div className="mb-6 animate-slide-up">
                         <label className="block text-accent-700 text-sm font-medium mb-2">
-                          Available Time Slots
+                          Pepe Slot de hora
                         </label>
                         <div className="grid grid-cols-3 gap-2">
                           {availableTimeSlots.map((slot) => (
@@ -224,7 +224,7 @@ const BookingForm: React.FC = () => {
                             : 'bg-gray-300 cursor-not-allowed'
                         } transition-colors shadow-md`}
                       >
-                        Continue
+                        Continuar
                       </button>
                     </div>
                   </div>
@@ -239,7 +239,7 @@ const BookingForm: React.FC = () => {
                         onClick={handleBack}
                         className="text-primary-600 hover:text-primary-700"
                       >
-                        ← Back
+                        ← Pepe volver
                       </button>
                     </div>
 
